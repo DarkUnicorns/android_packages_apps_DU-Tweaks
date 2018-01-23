@@ -45,6 +45,14 @@ public class Miscellaneous extends SettingsPreferenceFragment
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.miscellaneous);
+
+        boolean enableSmartPixels = getContext().getResources().
+                getBoolean(com.android.internal.R.bool.config_enableSmartPixels);
+        Preference SmartPixels = findPreference("smart_pixels");
+
+        if (!enableSmartPixels){
+            getPreferenceScreen().removePreference(SmartPixels);
+        }
     }
 
     @Override
