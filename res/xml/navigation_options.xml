@@ -31,6 +31,12 @@
         android:dependency="navigation_bar" />
 
     <Preference
+        android:key="gesture_settings"
+        android:icon="@drawable/ic_settings_gestures"
+        android:title="@string/gesture_settings_title"
+        android:fragment="com.dirtyunicorns.tweaks.fragments.GestureSettings" />
+
+    <Preference
         android:key="button_brightness"
         android:title="@string/button_backlight_title"
         android:summary="@string/button_backlight_summary"
