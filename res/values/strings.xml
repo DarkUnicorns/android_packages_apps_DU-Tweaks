@@ -67,6 +67,8 @@
     <string name="buttons_summary">Configure volume rocker options</string>
     <string name="navigation_options_title">Navigation</string>
     <string name="navigation_options_summary">Configure navigation options</string>
+    <!-- Miscellaneous -->
+    <string name="app_ops_category">App Ops</string>
     <!-- Multitasking -->
     <string name="headsup_title">Heads up</string>
     <string name="headsup_summary">Configure heads up options</string>
